@@ -1,0 +1,38 @@
+{
+	"top1":{
+		"brandname": "A.K.O.O Clothing",
+		"price":"200",
+		"pic":"top1.jpg"},
+	"top2":{
+		"brandname": "B.K.T Clothing",
+		"price":"500",
+		"pic":"top2.jpg"},
+	"top3":{
+		"brandname": "Bangmod Clothing",
+		"price":"700",
+		"pic":"top3.jpg"},
+	"top4":{
+		"brandname": "Arm Clothing",
+		"price":"599",
+		"pic":"top4.jpg"},
+	"top5":{
+		"brandname": "Min Clothing",
+		"price":"499",
+		"pic":"top5.jpg"},
+	"top6":{
+		"brandname": "Baison Clothing",
+		"price":"349",
+		"pic":"top6.jpg"},
+	"top7":{
+		"brandname": "Namnon Clothing",
+		"price":"129",
+		"pic":"top7.jpg"},
+	"top8":{
+		"brandname": "Tangsing Clothing",
+		"price":"549",
+		"pic":"top8.jpg"},
+	"top9":{
+		"brandname": "Etuk Clothing",
+		"price":"299",
+		"pic":"top9.jpg"}
+}

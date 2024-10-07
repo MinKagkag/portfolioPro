@@ -1,0 +1,84 @@
+h1 {
+    background-color: coral;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+h2 {
+    background-color: coral;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    color: aliceblue;
+    font-size: 29px;
+}
+
+.a {
+    background-color: rgb(231, 212, 229);
+    font-size: 25px;
+    padding: 30px;
+    display: flex;
+}
+
+.b {
+    background-color: rgb(231, 212, 229);
+    font-size: 25px;
+    padding: 30px;
+    display: flex;
+}
+
+.Bigpic {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#ingre {
+    width: 350px;
+    margin-right: 10%;
+}
+
+#howto {
+    width: 250px;
+    margin-left: 0%;
+}
+
+.Image {
+    border-radius: 50px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px dotted black;
+}
+
+/* body{
+    background-image: url("pic/cinnamon-1.jpeg");
+} */
+
+body {
+    background-color: cornsilk;
+}
+
+.source {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    background-color: antiquewhite;
+
+}
+
+.lastpic {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Image6 {
+    border: 10px solid rgb(248, 148, 17);
+    border-radius: 20px;
+}

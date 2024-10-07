@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="เว็บพอร์ตโฟลิโอ">
+    <meta name="keywords" content="HTML, CSS, JavaScript, พอร์ตโฟลิโอ">
+    <meta name="author" content="ปรมินทร์ มีแย้ม">
+    <link rel='stylesheet' type='text/css' media='screen' href='min.css'>
+    <script src="fe.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#gallery">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#assign">Assignments</a></li>
+                <li><a href="#social">Social</a></li>
+                <li><a href="#Ref">Reference</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile" class="profile">
+            <img id="hum" src="min.jpg" alt="รูปของปรมินทร์ มีแย้ม" />
+            <div class="name">
+                <h2>Porramin Meeyam</h2>
+                <p>ปรมินทร์ มีแย้ม</p>
+            </div>
+        </section>
+
+        <section id="education" class="educate">
+            <h2>Education:</h2>
+            <ul>
+                <li>Pakphanang School
+                    <ul>
+                        <li>2016 - 2021</li>
+                    </ul>
+                </li>
+                <li>King mongkut's university of technology thonburi
+                    <ul>
+                        <li>2022 - Present</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="hobbies" class="hobbies">
+            <h2>Hobbies:</h2>
+            <ul>
+                <li>Find interesting projects to develop</li>
+                <li>Drum</li>
+            </ul>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>My work:</h2>
+            <div class="gallerypic">
+                <div class="project">
+                    <img src="ad1.jpg" alt="Project 1">
+                    <p>- Project Arduino with RFID Sensor</p>
+                    <ul>
+                        <li>It is a key card system using RFID sensors.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <img src="ad2.jpg" alt="Project 2">
+                    <p>- Project ESP8266 with Blink and LED</p>
+                    <ul>
+                        <li>It is a project that connects the ESP8266 board with blink.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <img src="ad3.jpg" alt="Project 3">
+                    <p>- Make an UI game with Unity</p>
+                    <ul>
+                        <li>Create a game ui using unity.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills:</h2>
+            <ul>
+                <li>Arduino</li>
+                <li>HTML</li>
+                <li>C</li>
+                <li>Unity</li>
+                <li id="extraSkills1" style="display: none;">JavaScript</li>
+            </ul>
+            <button onclick="toggleSkills1(event)">More...</button>
+        </section>
+
+        <section id="interests" class="interests">
+            <h2>Interests:</h2>
+            <ul>
+                <li>Technology</li>
+                <li>Computer</li>
+                <li>Arduino</li>
+            </ul>
+        </section>
+
+        <section id="assign" class="assign">
+            <h2>MDT312 Assignment:</h2>
+            <ul>
+                <li>Assignment1: (Portfolio web page): <a href="assign/asn1.html">Week1</a>
+                <li>Assignment2: (Portfolio web page):<a href="assign/asn2.html">Week2</a></li>
+                <li>Assignment3: (Recipe: Cinnamon Roll Wreath with Apples): <a href="assign/asn3.html">Week3</a></li>
+                <li>Assignment4: (Recipe: Pizza Dip):<a href="assign/asn4.html">Week4</a></li>
+                <li>Assignment5: (Blog): <a href="assign/asn5.html">Week5</a></li>
+                <li>Assignment6: (Register): <a href="assign/asn6.1.html">Week6</a></li>
+                <li>Assignment6: (Login): <a href="assign/asn6.html">Week6</a></li>
+                <li>Assignment7: (Game): <a href="assign/asn7.html">Week7</a></li>
+                <li>Assignment8: (Clothing): <a href="assign/asn8.html">Week8</a></li>
+            </ul>
+        </section>
+
+        <section id="social" class="social">
+            <h2>Social links:</h2>
+            <ul>
+                <li>Facebook: <a href="https://www.facebook.com/porramin.meeyam">Porramin Meeyam</a>
+                    <ul>
+                        <li>Instragram: <a href="https://www.instagram.com/m1in.prmmm_/">m1in.prmmm_</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="Ref" class="Ref">
+            <h2>Reference:</h2>
+            <ul>
+                <li>บทความเรียนรู้การทำเว็บไซต์เบื้องต้น: <a href="https://enfete.co.th/th/semantic-html/">Semantic HTML คืออะไร และตัวอย่างการใช้งาน Semantic HTML5 Tags</a>
+                    <ul>
+                        <li>บทช่วยสอนจาวาสคริปต์: <a href="https://w3hmong.com/js/default.htm">ตัวอย่าง JavaScript</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <button onclick="changeQuote()">Click me to display name and student id</button>
+        <div id="quoteDisplay"></div>
+    </main>
+
+    <footer>
+        <ul>
+            <img id="logo" src="media.png" alt="logo" />
+            <img id="logo2" src="kmutt.png" alt="logo2" />
+        </ul>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+div{
+    text-align: center;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 83, 6);
+
+}
+h2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 83, 6);
+    margin-bottom: 1%;
+}
+
+ul{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    width: 200px;
+    margin: auto;
+}
+
+#hum{
+    border-radius: 100%;
+    border: 10px solid rgb(0, 0, 0) ;
+}
+.free{
+    text-align: left;
+    background-color: rgb(236, 236, 236);
+}
